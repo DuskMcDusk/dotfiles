@@ -115,3 +115,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+alias dotfiles='/usr/bin/git --git-dir=/home/sven/.dotfiles --work-tree=/home/sven'
