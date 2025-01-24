@@ -189,7 +189,16 @@ bar {
         status_command i3status
 }
 
+# CUSTOM SETTINGS
+
+#default_border none
+hide_edge_borders smart
+
 # CUSTOM BINDINGS
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl s +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 5%-
- 
+
+# catpuccin macchiato theme
+
+include ~/.config/i3/catppuccin-macchiato.conf
+
