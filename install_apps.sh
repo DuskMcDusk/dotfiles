@@ -12,7 +12,11 @@ build-essential \
 git \
 gh \
 i3 \
-pulseaudio-utils
+pulseaudio-utils \
+brightnessctl
+
+# configure brightnessctl to run without sudo
+sudo usermod -aG video ${USER}
 
 echo "clean up"
 sudo apt autoremove -y
