@@ -10,6 +10,7 @@ fi
 sudo apt install -y \
 build-essential \
 git \
+curl \
 gh \
 i3 \
 pulseaudio-utils \
